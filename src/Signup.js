@@ -14,7 +14,7 @@ function Signup() {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      toast.success("Signup successful! 🎉 Welcome to GroceryBazar!");
+      toast.success("Signup successful! Welcome to GroceryBazar!");
       navigate("/home");
     } catch (error) {
       toast.error(error.message);
