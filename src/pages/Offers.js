@@ -64,7 +64,7 @@ function Offers() {
       </div>
 
       <div className="text-center mt-4">
-        <Link to="/">
+        <Link to="/home">
           <motion.button
             className="btn btn-success px-4 py-2 fw-bold"
             whileHover={{ scale: 1.1 }}

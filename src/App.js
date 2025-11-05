@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
     "/payment",
     "/thankyou",
     "/offers",
-    "/login"
+    "/login",
+    "/signup",
+    "/"
   ];
 
   const showFooter = !noFooterPaths.includes(location.pathname.toLowerCase());
